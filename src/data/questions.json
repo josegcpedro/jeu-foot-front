@@ -46,7 +46,7 @@
     },
     {
         "question": "Quel joueur détient le record du plus grand nombre de buts en Coupe du Monde ?",
-        "options": ["Miroslav Klose", "Ronaldo", "Gerd Müller"],
+        "options": ["Miroslav Klose", "Ronaldo Luís Nazário ", "Gerd Müller"],
         "correct_answer": "Miroslav Klose"
     }
 ]
