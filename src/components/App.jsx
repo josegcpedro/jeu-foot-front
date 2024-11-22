@@ -3,6 +3,7 @@ import Questions from '../data/questions.json';
 import { useState } from 'react';
 import Ballon from './Ballon';
 import Login from './Login';
+import Test from './Test';
 
 function App() {
   const [score, setScore] = useState(0);
@@ -12,6 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/test" element={<Test />} />
         <Route path="/" element={<Login />} />
         <Route path="/main" element={<div className="card">
           <h1 id='points' className="text-white">Score: {score}</h1>
